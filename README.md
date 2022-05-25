@@ -21,3 +21,9 @@
 
 > -source "com.loamen.javadoctest" -sourcepath "..\javadoc-test\src\main\java" -subpackages "com.loamen.javadoctest" -classpath "..\javadoc-test\target\classes" -fieldmodifier PUBLIC -methodmodifier PUBLIC -docpath "d:\doc.docx"
 
+## 打包
+
+* 打开"File"->"Project Structure"->"Artifacts"->"+"->"JAR"->"from modules with dependence"；
+* 如下图设置
+  ![alt 打包设置](doc/images/build.png)
+* 打包："Build"->"Build Artifacts"，打包成功后的文件在"out\artifacts\javadoc_generator_jar"目录。
